@@ -68,6 +68,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+          <repository>
+          <id>releases</id>
+           <url>http://172.31.36.249:8081/repository/ProductWebApplication-Declarative-Release/</url>
+         </repository>
+		
+         <snapshotRepository>
+         <id>snapshots</id>
+         <url>http://172.31.36.249:8081/repository/ProductWebApplication-Declarative-Snapshot/</url>
+         </snapshotRepository>
+     </distributionManagement>
+
 
 	<build>
 		<plugins>
