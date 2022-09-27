@@ -71,12 +71,12 @@
 	
 	<distributionManagement>
           <repository>
-          <id>releases</id>
+          <id>nexus</id>
            <url>http://172.31.36.249:8081/repository/ProductWebApplication-Declarative-Release/</url>
          </repository>
 		
          <snapshotRepository>
-         <id>snapshots</id>
+         <id>nexus</id>
          <url>http://172.31.36.249:8081/repository/ProductWebApplication-Declarative-Snapshot/</url>
          </snapshotRepository>
      </distributionManagement>
