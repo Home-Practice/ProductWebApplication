@@ -10,14 +10,16 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.app.product</groupId>
-	<artifactId>03.ProductWebApplication</artifactId>
+	<artifactId>ProductWebApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>03.ProductWebApplication</name>
+	<name>ProductWebApplication</name>
 	<description>Product Web Mini Project Development</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://172.31.37.30:9000/</sonar.host.url>
+		<sonar.login>3aa257b4ff07674cdb733dd24a07a70c0950ab1b</sonar.login>
 	</properties>
 
 	<dependencies>
